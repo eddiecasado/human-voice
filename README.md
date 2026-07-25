@@ -20,9 +20,20 @@ The skill runs a **repeat-until-clean multi-pass audit**, not a single pass. One
 
 It also calibrates to a voice sample when one is given, so it removes the machine fingerprint without flattening a real writer's style, and it includes guards against over-editing genuine human prose.
 
+## What's in this repo
+
+- **`SKILL.md`** — the skill itself, in plain text. This is the file we read and edit.
+- **`human-voice-v1.skill`** — the packaged version an agent loads. It's a zip built from `SKILL.md` and the license. A maintainer rebuilds it whenever `SKILL.md` changes; nobody edits it by hand.
+- **`COLLABORATION.md`** — a plain-English guide for improving the skill as a group, written for people who don't use GitHub.
+- **`build-skill.sh`** — the small script a maintainer runs to rebuild the package.
+
 ## Install
 
-Download `human-voice-v1.skill` from this repo and add it to your agent's skills. The `.skill` file is a zip archive containing `SKILL.md` and this license.
+Download `human-voice-v1.skill` from this repo and add it to your agent's skills. The `.skill` file is a zip archive containing `SKILL.md` and the license.
+
+## Contributing
+
+A few of us improve this skill together, and you don't need to know GitHub to help. See **[COLLABORATION.md](COLLABORATION.md)** for step-by-step, browser-only instructions on how to read, download, suggest a change, and how a change makes its way in.
 
 ## Attribution
 
