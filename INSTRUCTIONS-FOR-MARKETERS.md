@@ -1,4 +1,4 @@
-# Working on this skill together
+# Instructions for marketers
 
 A plain-English guide for improving the human-voice skill as a group. You do not need to know GitHub, install anything, or use a command line. Everything here happens in your web browser.
 
