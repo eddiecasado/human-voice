@@ -5,9 +5,12 @@ Copyright (c) 2026 Eddie Casado (modifications and additions in the "human-voice
 
 This work is a derivative of the "humanizer" agent skill by Siqi Chen, used under
 the MIT License. Portions of this skill — including the draft/audit loop, the
-no-fabrication rule, voice calibration, and the false-positive guards — derive from
-that work. All modifications and additions are Copyright (c) 2026 Eddie Casado and
-are likewise made available under the MIT License below.
+no-fabrication rule, voice calibration, the false-positive guards, and, as of
+v2.0.0, the puffery, vague-sourcing, overused-vocabulary, false-range,
+passive-voice, formatting, and chatbot-leftover pattern catalogue (merged from
+humanizer v2.11.1) — derive from that work. All modifications and additions are
+Copyright (c) 2026 Eddie Casado and are likewise made available under the MIT
+License below.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

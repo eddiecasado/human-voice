@@ -10,7 +10,7 @@ An agent skill for writing and editing prose so it doesn't read as AI-generated.
 
 AI writing has a fingerprint. Even careful, "cleaned" copy keeps getting caught, because the tells are structural and rhythmic, not just word choice. This skill is a catalogue of those tells with the fix for each, plus a way of working that keeps them out in the first place.
 
-It catches 20 structural tells (em-dashes, contrastive negation, colon-then-declarative, staccato fragment lists, the rule of three, faux-profound closers, copula avoidance, and more) and 8 tonal tells (over-hedging, self-deprecation, self-centered framing, pronoun drift, manufactured stakes, and others). It also enforces a no-fabrication rule that covers invented facts and unverifiable claims about the reader.
+It catches 28 structural tells (em-dashes, contrastive negation, colon-then-declarative, staccato fragment lists, the rule of three, faux-profound closers, copula avoidance, sales language, inflated legacy claims, vague sourcing, overused AI vocabulary, false ranges, passive voice, and more), 8 tonal tells (over-hedging, self-deprecation, self-centered framing, pronoun drift, manufactured stakes, and others), a set of formatting tells (bold overuse, bold mini-heading lists, title-case headings, emoji decoration, hyphenated-pair overuse), and a set of chatbot-leftover tells (greeting/closing text, overly agreeable tone, knowledge-limit disclaimers). It also enforces a no-fabrication rule that covers invented facts and unverifiable claims about the reader.
 
 The goal: writing that sounds like a specific person saying a plain thing to someone they respect, not a machine performing fluency.
 
@@ -37,7 +37,7 @@ A few of us improve this skill together, and you don't need to know GitHub to he
 
 ## Attribution
 
-Portions of this skill derive from the **humanizer** agent skill by Siqi Chen ([github.com/blader/humanizer](https://github.com/blader/humanizer)), used under the MIT License, Copyright (c) 2025 Siqi Chen. The humanizer skill contributed the draft/audit loop, the no-fabrication rule, voice calibration, and the false-positive guards. The tell catalogue, the multi-pass loop, and the additions here build on that foundation.
+Portions of this skill derive from the **humanizer** agent skill by Siqi Chen ([github.com/blader/humanizer](https://github.com/blader/humanizer)), used under the MIT License, Copyright (c) 2025 Siqi Chen. Version 1 took the draft/audit loop, the no-fabrication rule, voice calibration, and the false-positive guards from that work. Version 2 merges in the rest of humanizer's catalogue (v2.11.1) — sales language, inflated-legacy claims, vague sourcing, overused AI vocabulary, false ranges, passive voice, the formatting tells, and the chatbot-leftover tells — folded together with this skill's existing tells wherever the two catalogues already overlapped.
 
 ## License
 
